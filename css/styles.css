@@ -1,0 +1,177 @@
+:root {
+  --main-color: #ff4c68;
+  --secondary-color: #ef8172;
+  --text-color: #fff;
+  --main-font: "Montserrat", sans-serif;
+  --default-padding: 7% 15%;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+#title {
+  background: var(--main-color);
+  color: var(--text-color);
+}
+
+#title h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title img {
+  width: 300px;
+  transform: rotate(25deg);
+  position: absolute;
+  margin: 0 0 0 3%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h2 {
+  font-weight: bold;
+  font-family: var(--main-font);
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bold;
+  font-family: var(--main-font);
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: var(--main-font);
+  font-weight: light;
+}
+
+.btn-download {
+  margin: 5% 3% 5% 0;
+}
+
+#features {
+  background: var(--text-color);
+  position: relative;
+  z-index: 1;
+}
+
+#features .container {
+  padding: var(--default-padding);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#features .item {
+  padding: 5px;
+}
+
+#features i {
+  margin: 15px 0;
+  font-size: 4rem;
+  color: var(--secondary-color);
+}
+
+#features i:hover {
+  color: var(--main-color);
+}
+
+/* Testimonial */
+
+#testimonials {
+  text-align: center;
+  background: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.carousel-item {
+  padding: var(--default-padding);
+}
+
+#testimonials img {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#press {
+  background: var(--secondary-color);
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 4% 2%;
+}
+
+#cta {
+  background: var(--main-color);
+  color: var(--text-color);
+  padding: var(--default-padding);
+  text-align: center;
+}
+
+#cta h3 {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: var(--default-padding);
+  text-align: center;
+}
+
+#footer i {
+  margin: 20px 10px;
+  font-size: 2rem;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  #title img {
+    position: static;
+    transform: rotate(0);
+  }
+}
